@@ -14,7 +14,7 @@ const SearchBox = ({ history }) => {
   };
 
   return (
-    <Form onSubmit={submitHandler} inline className="d-flex">
+    <Form onSubmit={submitHandler} inline className="d-flex mx-auto">
       <Form.Control
         type="text"
         name="q"
